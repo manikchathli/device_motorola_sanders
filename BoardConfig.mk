@@ -139,6 +139,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
+DONT_DEXPREOPT_PREBUILTS := true
 
 # Display
 HAVE_ADRENO_SOURCE:= false
