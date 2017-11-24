@@ -22,8 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+# Inherit some common Colt stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/colt.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -31,7 +32,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := validus_sanders
+PRODUCT_NAME := colt_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -42,5 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sanders-7.1.1/NPS26.116-26/30:user/release-keys" \
     PRODUCT_NAME="Moto G5S Plus"
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Prema Chand Alugu(premaca)"
+
+
