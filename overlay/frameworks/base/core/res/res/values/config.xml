@@ -263,7 +263,7 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
 
     <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+    <!--<bool name="config_enableDozeAlwaysOn">true</bool>-->
 
     <!-- Enable doze powersaving -->
     <bool name="config_enableAutoPowerModes">true</bool>
@@ -324,15 +324,15 @@
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response
          proximity sensor (ideally < 300ms) -->
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">100</integer>
+    <!--<bool name="config_proximityCheckOnWake">true</bool>-->
+    <!--<integer name="config_proximityCheckTimeout">100</integer>-->
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Should proximity check also affect fingerprint reader-->
-    <bool name="config_proximityCheckOnFingerprintWake">true</bool>
+    <!--<bool name="config_proximityCheckOnFingerprintWake">true</bool>-->
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+    <!--<bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>-->
 
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string name="config_deviceKeyHandlerLib" translatable="false">/system/priv-app/LineageActions/LineageActions.apk</string>
