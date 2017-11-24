@@ -326,7 +326,7 @@
          proximity sensor (ideally < 300ms) -->
     <!--<bool name="config_proximityCheckOnWake">true</bool>-->
     <!--<integer name="config_proximityCheckTimeout">100</integer>-->
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <!--<bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>-->
 
     <!-- Should proximity check also affect fingerprint reader-->
     <!--<bool name="config_proximityCheckOnFingerprintWake">true</bool>-->
@@ -335,10 +335,10 @@
     <!--<bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>-->
 
     <!-- Paths to the libraries that contain device specific key handlers -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/priv-app/LineageActions/LineageActions.apk</string>
+    <!--<string name="config_deviceKeyHandlerLib" translatable="false">/system/priv-app/LineageActions/LineageActions.apk</string>-->
 
     <!-- Names of the key handler classes -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">org.lineageos.settings.device.KeyHandler</string>
+    <!--<string name="config_deviceKeyHandlerClass" translatable="false">org.lineageos.settings.device.KeyHandler</string>-->
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
